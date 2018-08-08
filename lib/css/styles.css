@@ -1,0 +1,49 @@
+body{
+    background-color:rgba(19, 18, 18, 0.925);
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    height: 70vh;
+    font-size: 4em;
+}
+iframe{
+    text-align: center;
+}
+#player {
+    text-align: center;
+}
+#title {
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+
+@media(max-width: 320px){
+    body {
+        background-color: rgba(19, 18, 18, 0.925);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 95%;
+        float: none;
+    }
+    iframe{
+        width: 95%; 
+        outline: none;
+    }
+    iframe[seamless] { 
+        display: block;
+    }   
+    #video{
+        height: 80vh;
+        width: 95%;
+    }
+    #title{
+        font-size: 18px;
+    }
+}
